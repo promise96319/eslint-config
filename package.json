@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Custom eslint config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promise96319/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "promise96319",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/promise96319/eslint-config/issues"
+  },
+  "homepage": "https://github.com/promise96319/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}

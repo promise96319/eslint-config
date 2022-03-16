@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-react",
+  "version": "1.0.0",
+  "author": "promise96319",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
