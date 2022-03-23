@@ -1,8 +1,29 @@
 {
-  "name": "eslint-config-basic",
+  "name": "@silence94/eslint-config-basic",
   "version": "1.0.0",
-  "author": "promise96319",
   "license": "ISC",
+  "author": "promise96319",
+  "files": [
+    "./index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --fix --config=index.js"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-n": "^15.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^41.0.1",
+    "eslint-plugin-yml": "^0.14.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^0.5.0"
+  },
   "devDependencies": {
     "eslint": "^8.11.0"
   }

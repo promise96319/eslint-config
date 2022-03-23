@@ -1,7 +1,6 @@
 {
-  "name": "eslint-config",
+  "name": "@silence94/eslint-config",
   "version": "1.0.0",
-  "description": "Custom eslint config",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/promise96319/eslint-config.git"
@@ -9,13 +8,20 @@
   "keywords": [
     "eslint"
   ],
+  "description": "Custom eslint config",
   "author": "promise96319",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/promise96319/eslint-config/issues"
   },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "eslint fixture/** --fix"
+  },
   "homepage": "https://github.com/promise96319/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^8.11.0"
+    "@silence94/eslint-config-basic": "workspace:^1.0.0",
+    "eslint": "^8.11.0",
+    "lerna": "^4.0.0"
   }
 }

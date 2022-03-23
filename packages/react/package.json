@@ -1,9 +1,12 @@
 {
-  "name": "eslint-config-react",
+  "name": "@silence84/eslint-config-react",
   "version": "1.0.0",
   "author": "promise96319",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.11.0"
+  },
+  "dependencies": {
+    "@silence94/eslint-config-basic": "workspace:^1.0.0"
   }
 }

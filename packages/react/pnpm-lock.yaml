@@ -1,7 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@silence94/eslint-config-basic': workspace:^1.0.0
   eslint: ^8.11.0
+
+dependencies:
+  '@silence94/eslint-config-basic': link:../basic
 
 devDependencies:
   eslint: registry.npmmirror.com/eslint/8.11.0
