@@ -5,9 +5,5 @@ function aadsd() {
 }
 
 let c = 33
+
 c = 22
-//  asd
-// ahel
-/**
- * /
- */

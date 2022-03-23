@@ -4,6 +4,7 @@
   "author": "promise96319",
   "license": "ISC",
   "devDependencies": {
+    "@silence94/eslint-config-basic": "^0.0.1",
     "eslint": "^8.11.0"
   },
   "dependencies": {

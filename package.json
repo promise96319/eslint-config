@@ -1,6 +1,5 @@
 {
   "name": "@silence94/eslint-config-monorepo",
-  "version": "1.0.0",
   "private": "true",
   "repository": {
     "type": "git",
@@ -18,10 +17,12 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint fixture/** --fix",
-    "release": "lerna publish"
+    "version": "lerna version",
+    "release": "lerna publish --conventional-commits"
   },
   "homepage": "https://github.com/promise96319/eslint-config#readme",
   "devDependencies": {
+    "@silence94/eslint-config-basic": "*",
     "eslint": "^8.11.0",
     "lerna": "^4.0.0"
   }
