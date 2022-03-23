@@ -1,6 +1,7 @@
 {
   "name": "@silence94/eslint-config-monorepo",
   "version": "1.0.0",
+  "private": "true",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/promise96319/eslint-config.git"
@@ -21,7 +22,6 @@
   },
   "homepage": "https://github.com/promise96319/eslint-config#readme",
   "devDependencies": {
-    "@silence94/eslint-config-basic": "workspace:^1.0.0",
     "eslint": "^8.11.0",
     "lerna": "^4.0.0"
   }
