@@ -1,12 +1,12 @@
 {
   "name": "@silence94/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "promise96319",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@silence94/eslint-config-basic": "^1.0.0"
+    "@silence94/eslint-config-basic": "^0.0.1"
   }
 }
