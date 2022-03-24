@@ -1,6 +1,6 @@
 {
   "name": "@silence94/eslint-config-monorepo",
-  "private": "true",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/promise96319/eslint-config.git"
