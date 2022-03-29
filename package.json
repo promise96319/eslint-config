@@ -18,7 +18,7 @@
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint fixture/** --fix",
     "version": "lerna version",
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish from-package --conventional-commits"
   },
   "homepage": "https://github.com/promise96319/eslint-config#readme",
   "devDependencies": {

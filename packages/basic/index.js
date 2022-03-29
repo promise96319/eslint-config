@@ -52,8 +52,11 @@ module.exports = {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',
       rules: {
+        // 双引号
         'quotes': ['error', 'double'],
+        // 键值用引号括起来
         'quote-props': ['error', 'always'],
+        // 末尾不加逗号
         'comma-dangle': ['error', 'never'],
       },
     },
@@ -61,9 +64,11 @@ module.exports = {
       files: ['*.yaml', '*.yml'],
       parser: 'yaml-eslint-parser',
       rules: {
+        // 不强制在注释中 // 或 /* 使用一致的空格
         'spaced-comment': 'off',
       },
     },
+    // package.json 字段排序
     {
       files: ['package.json'],
       parser: 'jsonc-eslint-parser',
@@ -163,10 +168,14 @@ module.exports = {
 
     // Common
     'semi': ['error', 'never'],
+    // 大括号：
+    // multi-or-nest 代码主体中只包含一条语句，强制省略大括号。
+    // consistent 表示大括号省略需要具有一致性
     'curly': ['error', 'multi-or-nest', 'consistent'],
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent-as-needed'],
     'no-unused-vars': 'warn',
+    // 对参数进行重新赋值
     'no-param-reassign': 'off',
     'array-bracket-spacing': ['error', 'never'],
     'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
@@ -283,6 +292,7 @@ module.exports = {
     'import/no-named-as-default-member': 'off',
     'n/no-callback-literal': 'off',
 
+    // 模块排序
     'sort-imports': [
       'error',
       {
