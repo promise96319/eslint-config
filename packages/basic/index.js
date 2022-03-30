@@ -260,6 +260,10 @@ module.exports = {
     'require-await': 'off',
     'no-return-assign': 'off',
     'operator-linebreak': ['error', 'before'],
+    'max-len': ['error', {
+      code: 120,
+      tabWidth: 2,
+    }],
 
     // unicorns
     // Pass error message when throwing errors
@@ -296,8 +300,13 @@ module.exports = {
     'sort-imports': [
       'error',
       {
+        // ignoreCase: false,
+        // ignoreDeclarationSort: true,
+        // ignoreMemberSort: false,
+        // memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+        // allowSeparatedGroups: false,
         ignoreCase: false,
-        ignoreDeclarationSort: true,
+        ignoreDeclarationSort: false,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
         allowSeparatedGroups: false,
