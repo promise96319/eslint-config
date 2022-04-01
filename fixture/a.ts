@@ -1,1 +1,3 @@
-const a = 333
+const a = {
+  B: 1,
+}

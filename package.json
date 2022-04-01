@@ -1,16 +1,16 @@
 {
   "name": "@silence94/eslint-config-monorepo",
   "private": true,
+  "description": "Custom eslint config",
+  "keywords": [
+    "eslint"
+  ],
+  "license": "ISC",
+  "author": "promise96319",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/promise96319/eslint-config.git"
   },
-  "keywords": [
-    "eslint"
-  ],
-  "description": "Custom eslint config",
-  "author": "promise96319",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/promise96319/eslint-config/issues"
   },

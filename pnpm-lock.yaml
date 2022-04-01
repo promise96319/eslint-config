@@ -56,10 +56,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@silence94/eslint-config-basic': ^0.0.1
       eslint: ^8.11.0
-    dependencies:
-      '@silence94/eslint-config-basic': link:../basic
     devDependencies:
       eslint: registry.npmmirror.com/eslint/8.11.0
 

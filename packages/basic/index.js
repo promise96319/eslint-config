@@ -53,7 +53,7 @@ module.exports = {
       parser: 'jsonc-eslint-parser',
       rules: {
         // 双引号
-        'quotes': ['error', 'double'],
+        'quotes': ['error', 'single'],
         // 键值用引号括起来
         'quote-props': ['error', 'always'],
         // 末尾不加逗号
