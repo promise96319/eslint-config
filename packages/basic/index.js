@@ -5,6 +5,7 @@ module.exports = {
     browser: true,
     node: true,
   },
+
   extends: [
     // https://github.com/standard/eslint-config-standard/blob/master/.eslintrc.json
     'standard',
@@ -15,6 +16,7 @@ module.exports = {
     // 对于不同文件的不同配置
     // json
     'plugin:jsonc/recommended-with-jsonc',
+    'plugin:jsonc/recommended-with-json5',
     // yaml
     'plugin:yml/standard',
     // md
@@ -53,11 +55,20 @@ module.exports = {
       parser: 'jsonc-eslint-parser',
       rules: {
         // 双引号
-        'quotes': ['error', 'single'],
+        'quotes': ['error', 'double'],
         // 键值用引号括起来
         'quote-props': ['error', 'always'],
         // 末尾不加逗号
         'comma-dangle': ['error', 'never'],
+        'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+      },
+    },
+    {
+      files: ['*.json5'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        'no-comment': 'off',
+        'key-spacing': ['error', { beforeColon: false, afterColon: true }],
       },
     },
     {
