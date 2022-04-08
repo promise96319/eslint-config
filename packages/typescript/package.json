@@ -6,5 +6,6 @@
   "devDependencies": {
     "@gh/eslint-config-basic": "^0.0.1",
     "eslint": "^8.11.0"
-  }
+  },
+  "gitHead": "fafe029dbccef61df425672c05f0e8cfbff94ad9"
 }
