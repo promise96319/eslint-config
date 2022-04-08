@@ -9,8 +9,8 @@
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@qgh/eslint-config-react": "workspace:^0.0.1",
-    "@qgh/eslint-config-vue": "workspace:^0.0.1"
+    "@qgh/eslint-config-react": "^0.0.1",
+    "@qgh/eslint-config-vue": "^0.0.1"
   },
   "devDependencies": {
     "eslint": "^8.11.0"
