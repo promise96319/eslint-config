@@ -1,5 +1,15 @@
 {
   "packages": ["packages/*"],
   "version": "0.0.0",
-  "npmClient": "pnpm"
+  "npmClient": "pnpm",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
