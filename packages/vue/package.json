@@ -1,13 +1,13 @@
 {
-  "name": "@silence94/eslint-config-vue",
+  "name": "@gh/eslint-config-vue",
   "version": "0.0.1",
   "author": "promise96319",
   "license": "ISC",
   "devDependencies": {
-    "@silence94/eslint-config-basic": "^0.0.1",
+    "@gh/eslint-config-basic": "^0.0.1",
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@silence94/eslint-config-basic": "^0.0.1"
+    "@gh/eslint-config-basic": "^0.0.1"
   }
 }

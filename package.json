@@ -1,5 +1,5 @@
 {
-  "name": "@silence94/eslint-config-monorepo",
+  "name": "@gh/eslint-config-monorepo",
   "private": true,
   "description": "Custom eslint config",
   "keywords": [
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/promise96319/eslint-config#readme",
   "devDependencies": {
-    "@silence94/eslint-config-basic": "*",
+    "@gh/eslint-config-basic": "*",
     "eslint": "^8.11.0",
     "lerna": "^4.0.0"
   }
