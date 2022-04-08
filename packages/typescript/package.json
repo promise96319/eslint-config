@@ -1,6 +1,6 @@
 {
   "name": "@qgh/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "ISC",
   "author": "promise96319",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@qgh/eslint-config-basic": "^0.0.1",
+    "@qgh/eslint-config-basic": "^0.0.2",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@qgh/eslint-config-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "ISC",
   "author": "promise96319",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@qgh/eslint-config-ts": "^0.0.1",
+    "@qgh/eslint-config-ts": "^0.0.2",
     "eslint-plugin-vue": "^8.6.0"
   },
   "devDependencies": {
