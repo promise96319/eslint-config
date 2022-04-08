@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
-    '@qgh/eslint-config-ts',
+    '@qgh/eslint-config-react',
+    '@qgh/eslint-config-vue',
   ],
 }

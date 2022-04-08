@@ -1,14 +1,20 @@
 {
   "name": "@qgh/eslint-config-react",
   "version": "0.0.1",
-  "author": "promise96319",
   "license": "ISC",
-  "devDependencies": {
-    "@qgh/eslint-config-basic": "^0.0.1",
+  "author": "promise96319",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@qgh/eslint-config-basic": "^0.0.1"
+    "@qgh/eslint-config-ts": "^0.0.1",
+    "eslint-plugin-react": "^7.29.4"
   },
-  "gitHead": "d8e6be208beb4fff4603bd869f10ddb5cc823be4"
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
 }
