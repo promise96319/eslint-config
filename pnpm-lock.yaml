@@ -4,11 +4,11 @@ importers:
 
   .:
     specifiers:
-      '@gh/eslint-config-basic': '*'
+      '@qgh/eslint-config-basic': '*'
       eslint: ^8.11.0
       lerna: ^4.0.0
     devDependencies:
-      '@gh/eslint-config-basic': link:packages/basic
+      '@qgh/eslint-config-basic': link:packages/basic
       eslint: registry.npmmirror.com/eslint/8.11.0
       lerna: registry.npmmirror.com/lerna/4.0.0
 
@@ -47,27 +47,27 @@ importers:
 
   packages/react:
     specifiers:
-      '@gh/eslint-config-basic': ^0.0.1
+      '@qgh/eslint-config-basic': ^0.0.1
       eslint: ^8.11.0
     dependencies:
-      '@gh/eslint-config-basic': link:../basic
+      '@qgh/eslint-config-basic': link:../basic
     devDependencies:
       eslint: registry.npmmirror.com/eslint/8.11.0
 
   packages/typescript:
     specifiers:
-      '@gh/eslint-config-basic': ^0.0.1
+      '@qgh/eslint-config-basic': ^0.0.1
       eslint: ^8.11.0
     devDependencies:
-      '@gh/eslint-config-basic': link:../basic
+      '@qgh/eslint-config-basic': link:../basic
       eslint: registry.npmmirror.com/eslint/8.11.0
 
   packages/vue:
     specifiers:
-      '@gh/eslint-config-basic': ^0.0.1
+      '@qgh/eslint-config-basic': ^0.0.1
       eslint: ^8.11.0
     dependencies:
-      '@gh/eslint-config-basic': link:../basic
+      '@qgh/eslint-config-basic': link:../basic
     devDependencies:
       eslint: registry.npmmirror.com/eslint/8.11.0
 
