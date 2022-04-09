@@ -1,8 +1,9 @@
 {
   "name": "@qgh/eslint-config-ts",
   "version": "0.0.2",
-  "license": "ISC",
+  "license": "MIT",
   "author": "promise96319",
+  "repository": "https://github.com/promise96319/eslint-config",
   "main": "index.js",
   "file": "index.js",
   "peerDependencies": {
