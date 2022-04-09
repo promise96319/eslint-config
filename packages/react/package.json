@@ -1,6 +1,6 @@
 {
   "name": "@qgh/eslint-config-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "promise96319",
   "repository": "https://github.com/promise96319/eslint-config",
@@ -10,7 +10,7 @@
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@qgh/eslint-config-ts": "^0.0.2",
+    "@qgh/eslint-config-ts": "^0.0.3",
     "eslint-plugin-react": "^7.29.4"
   },
   "devDependencies": {
