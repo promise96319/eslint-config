@@ -1,2 +1,4 @@
 node_modules
 *.log
+pnpm-lock.yaml
+*.lock.yaml

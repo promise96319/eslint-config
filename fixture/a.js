@@ -1,3 +1,4 @@
-const a = '333'
 
-console.log(111)
+window.addEventListener('load', () => {
+  document.getElementById('btn').addEventListener('click', () => {})
+})
